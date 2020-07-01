@@ -1,0 +1,21 @@
+#Board-Container
+{
+	display: flex;
+ 	justify-content: center;
+}
+
+.board-row
+{
+	/*display: grid;
+ 	grid-template-columns: 120px 120px 120px;
+	grid-template-rows: 120px 120px 120px 20px;*/
+	/*grid-template-columns: 120px 120px 120px;
+	grid-template-rows: 120px 120px 120px 20px;*/
+}
+
+.box-style
+{
+	border: 1px solid black;
+	width: 20px;
+	height: 20px;
+}
