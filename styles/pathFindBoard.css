@@ -1,11 +1,14 @@
 #Board-Container
 {
-	display: flex;
+	display: grid;
  	justify-content: center;
+ 	/*float: center;*/
 }
 
 .board-row
 {
+	height: 20px;
+
 	/*display: grid;
  	grid-template-columns: 120px 120px 120px;
 	grid-template-rows: 120px 120px 120px 20px;*/
@@ -15,7 +18,12 @@
 
 .box-style
 {
+	/*float: left;*/
+	/*float: top;*/
 	border: 1px solid black;
 	width: 20px;
-	height: 20px;
+	height: 90%;
+	float: left;
+	/*float: center;*/
+	/*justify-content: center;*/
 }
